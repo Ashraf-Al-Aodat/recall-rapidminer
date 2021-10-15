@@ -1,0 +1,21 @@
+<html>
+<head>
+ <script>
+  const queryString = window.location.search;
+ console.log(queryString);
+ const urlParams = new URLSearchParams(queryString);
+
+ const color = urlParams.get('color')
+ console.log(color);
+ // blue
+
+ const newUser = urlParams.get('newuser')
+ console log(newUser);
+ // empty string
+
+ </script>
+</head>
+<body>
+<hr id="token">token</hr>
+</body>
+</html>
